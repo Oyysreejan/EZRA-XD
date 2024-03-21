@@ -18,7 +18,7 @@ var song = res.data
 await message.client.sendMessage(message.jid, { text: `*_Downloading ${song.data.title}_*` },{ quoted: message})
 const aswinsparky = await (await fetch(`${song.data.downloadUrl}`)).buffer()
 await message.client.sendMessage(message.jid, { audio :aswinsparky,  mimetype:"audio/mpeg", contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 body: "𝙎𝙤𝙣𝙜 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮",
 sourceUrl: "",
 mediaUrl: "",
@@ -43,7 +43,7 @@ command(
 let {result} = await getJson(`https://api-aswin-sparky.koyeb.app/api/downloader/yt_video?search=${match}`);
 await message.client.sendMessage(message.jid, { text: `*_Downloading ${result.title}_*` },{ quoted: message})
 return await message.sendFromUrl(result.url, {contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 body: "𝙑𝙞𝙙𝙚𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮",
 sourceUrl: "",
 mediaUrl: "",
@@ -66,7 +66,7 @@ command(
         if (!match) return await message.reply("*_Need YouTube Url_*");
         let dat = `https://api-brunosobrino.onrender.com/api/v1/ytmp3?url=${match}`
 await message.client.sendMessage(message.jid, { audio :{url: dat },  mimetype:"audio/mpeg", contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 body: "𝙎𝙤𝙣𝙜 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮",
 sourceUrl: "",
 mediaUrl: "",
@@ -88,7 +88,7 @@ command(
     async (message, match) => {
         if (!match) return await message.reply("*_Need YouTube Url_*");
 await message.sendFromUrl(`https://api-brunosobrino.onrender.com/api/v1/ytmp4?url=${match}`, {contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 body: "𝙑𝙞𝙙𝙚𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮",
 sourceUrl: "",
 mediaUrl: "",
@@ -114,7 +114,7 @@ var sex = await fetch(`https://vihangayt.me/download/spotify?url=${match}`);
         var fek = await sex.json();
         message.reply(`                       *DOWNLOADED*\n\n> *SONG* : ${fek.data.song} \n> *ARTIST* : ${fek.data.artist} \n> *RELEASED* : ${fek.data.release_date}\n\n𝐄𝐙𝐑𝐀 𝐗𝐃`)
         await message.client.sendMessage(message.jid, { audio :{ url: fek.data.url } , mimetype : 'audio/mpeg', contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 body: `🎧 ${fek.data.song}`,
 sourceUrl: "",
 mediaUrl: "",
@@ -178,7 +178,7 @@ command(
         if (!match) return await message.sendMessage("*_Need Pinterest Url_*");
 var {result} = await getJson(`https://api.lokiser.xyz/api/pinterestdl?link=${match}`)
 await message.sendFromUrl(result.LokiXer.url,{ contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 body: ``,
 sourceUrl: "",
 mediaUrl: "",
