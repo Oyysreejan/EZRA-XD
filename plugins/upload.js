@@ -13,7 +13,7 @@ command(
 match = match || message.reply_message.text
 if (!match)return message.reply(`*_Need a imgur/graph Link_*`)
 return await message.sendFromUrl(match, { contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 body: ``,
 sourceUrl: "",
 mediaUrl: "",
