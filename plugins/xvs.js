@@ -1,4 +1,4 @@
-const { command, isPrivate } = require("../lib");
+{ command, isPrivate } = require("../lib");
 const fetch = require("node-fetch");
 command(
     {
@@ -19,15 +19,15 @@ var data = await fek.json();
 > *DURATION* : ${data.result[i].duration}
 > *URL* : ${data.result[i].url}\n`
         }
-        txt+=`\n𝐄𝐙𝐑𝐀-𝐗𝐃`
+        txt+=`\`
                    await message.client.sendMessage(message.jid,{ document :{ url: "https://www.mediafire.com/file/n1qjfxjgvt0ovm2/IMG-20240211-WA0086_%25281%2529.pdf/file" }, fileName: "𝗫 𝗩𝗜𝗗𝗘𝗢 𝗥𝗘𝗦𝗨𝗟𝗧𝗦" , mimetype: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileLength: "999999950", contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 body: "",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (txt)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/I1wyk9t.jpeg" }}, caption: (𝐏𝐈𝐔-𝐌𝐃)}, {quoted: message })
     }
     );
