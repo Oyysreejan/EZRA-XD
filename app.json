@@ -27,22 +27,22 @@
      "AUDIO_DATA": {
       "description": "audio data , title;artist;image url",
       "required": "false",
-      "value": "𝐋𝐨𝐮𝐢𝐬-𝐗𝐃;𝐄𝐳𝐫𝐚 𝐗𝐃; https://i.imgur.com/Ou56ggv.jpeg"
+      "value": "𝐏𝐈𝐔;𝐏𝐢𝐮-𝐌𝐃; https://i.imgur.com/I1wyk9t.jpeg"
      },
      "CAPTION": {
       "description": "enter your media caption",
       "required": "false",
-      "value": "\n\n\n\n\n 𝙀𝙯𝙧𝙖𝙖𝙖𝙖𝙖𝙖𝙝𝙝𝙝𝙝🥹💕"
+      "value": "𝐆𝐫𝐞𝐧𝐚𝐭𝐞 𝐁𝐲 𝐏𝐢𝐮-𝐌𝐃"
     },
        "STICKER_DATA": {
       "description": "Sticker pack name, eg : Ezra;©️Louis-X0",
       "required": "false",
-      "value": "𝐄𝐳𝐫𝐚 𝐗𝐃;©️ 𝐋𝐨𝐮𝐢𝐬-𝐗𝐃"
+      "value": "𝐏𝐈𝐔-𝐌𝐃;𝐏𝐈𝐔"
     },
        "BOT_INFO": {
       "description": "Bot info : botname;ownername;imageurl - image or video",
       "required": "false",
-      "value": "𝐋𝐨𝐮𝐢𝐬-𝐗𝐃;𝐋𝐨𝐮𝐢𝐬-𝐗𝐃;https://i.imgur.com/nAkM1zV.mp4"
+      "value": "𝐏𝐈𝐔-𝐌𝐃;𝐏𝐈𝐔;https://i.imgur.com/I1wyk9t.jpeg"
     },
      "ALWAYS_ONLINE": {
       "description": "Bot online online : true",
