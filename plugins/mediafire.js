@@ -26,7 +26,7 @@ return response
 var zeta = await mediafiredownload(`${match}`)
 await message.client.sendMessage(message.jid, { text: `*_Downloading ${zeta[0]['name']}_*\n\n*size : ${zeta[0]['size']}*\n\n𝐄𝐙𝐑𝐀-𝐗𝐃` },{ quoted: message});
 await message.client.sendMessage(message.jid, { document :{ url: zeta[0]['link'] }, fileName: zeta[0]['name'] , mimetype: zeta[0]['mime'], contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 body: "𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮",
 sourceUrl: "",
 mediaUrl: "",
