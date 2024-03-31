@@ -317,11 +317,11 @@ command(
       if (desc) menu += `\n│  Use: \`\`\`${desc}\`\`\``;
       menu += `\n│\n`;
     });
-    menu += `╰───────┈┫「 𝐄𝐙𝐑𝐀-𝐗𝐃-𝐁𝐎𝐓 」┣┈────♡`;
+    menu += `╰───────┈┫「 𝐏𝐈𝐔-𝐌𝐃-𝐁𝐎𝐓 」┣┈────♡`;
     return await message.reply(message.jid, { text: (tiny(menu)), contextInfo: { externalAdReply: {
-title: "𝚵𝚭𝚪𝚫-𝚾𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 sourceUrl: "",
-mediaUrl: "https://instagram.com/abhiiiiiyh",
+mediaUrl: "https://instagram.com/sreejan_edit",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
@@ -455,7 +455,7 @@ command(
 	type: 'user'
 }, async (message, match) => {
 	match = match || message.reply_message.text
-	if (!match) return await message.reply('*_Need Text_!*\n *Example: setbio _Ezra-XD_*.')
+	if (!match) return await message.reply('*_Need Text_!*\n *Example: setbio _PIU-MD_*.')
 	await message.client.updateProfileStatus(match)
 	await message.reply('*_Successfully bio updated_*')
 })
