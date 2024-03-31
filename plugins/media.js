@@ -124,7 +124,7 @@ if (!message.reply_message || (!message.reply_message.video && !message.reply_me
 let res = await m.quoted.download();
       if(message.reply_message.video){
        await message.client.sendMessage(message.jid, { video :res ,  mimetype:"video/mp4", contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 body: "𝘾𝙖𝙥𝙩𝙞𝙤𝙣 𝘾𝙝𝙖𝙣𝙜𝙚𝙙",
 sourceUrl: "",
 mediaUrl: "",
@@ -134,7 +134,7 @@ renderLargerThumbnail: false,
 thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (match)}, {quoted: message })
       } else if(message.reply_message.image){
       await message.client.sendMessage(message.jid, { image :res ,  mimetype:"image/jpeg", contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 body: "𝘾𝙖𝙥𝙩𝙞𝙤𝙣 𝘾𝙝𝙖𝙣𝙜𝙚𝙙",
 sourceUrl: "",
 mediaUrl: "",
@@ -168,7 +168,7 @@ command(
       return await message.reply("*_Not a sticker_*");
     let buff = await m.quoted.download();
     return await message.sendMessage(buff,{mimetype: 'image/jpeg', contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 body: "𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙚𝙙 𝙏𝙤 𝙋𝙝𝙤𝙩𝙤",
 sourceUrl: "",
 mediaUrl: "",
@@ -200,7 +200,7 @@ command(
     let buff = await m.quoted.download();
     let buffer = await webp2mp4(buff);
     return await message.sendMessage(buffer,{mimetype: 'video/mp4', contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 body: "𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙚𝙙 𝙏𝙤 𝙈𝙥𝟰",
 sourceUrl: "",
 mediaUrl: "",
@@ -230,7 +230,7 @@ command(
     let buff = await m.quoted.download();
     buff = await toAudio(buff, "mp3");
      await message.sendMessage(buff,{mimetype: 'audio/mpeg', contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 body: "𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙚𝙙 𝙏𝙤 𝙈𝙥𝟯",
 sourceUrl: "",
 mediaUrl: "",
@@ -266,7 +266,7 @@ thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (config.CAPTION)},
    } else if(message.reply_message.video){
     let buff = await m.quoted.download();
    await message.client.sendMessage(message.jid, { video: buff, gifPlayback: true, contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
+title: "𝐏𝐈𝐔-𝐌𝐃",
 body: "𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙚𝙙 𝙏𝙤 𝙂𝙞𝙛",
 sourceUrl: "",
 mediaUrl: "",
